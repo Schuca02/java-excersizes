@@ -7,6 +7,10 @@ public class Exercise20 {
 
         char tenthChar = aliceQuote.charAt(9);
         System.out.println(tenthChar);
+        char firstChar = aliceQuote.charAt(0);
+        System.out.println(firstChar);
+        System.out.println(aliceQuote.charAt(19));
+        System.out.println(aliceQuote.charAt(67));
 
         // 1. Store the first character from aliceQuote in a char variable.
         // 2. Print it.

@@ -5,6 +5,13 @@ public class Exercise18 {
         int gemCount = 12;
         double velocity = 33.654;
         boolean isShiny = true;
+        String i = "Gem Count: ";
+        String v = "Velocity: ";
+        String c = "Is Shiny: ";
+
+        System.out.println(i + gemCount);
+        System.out.println(v + velocity);
+        System.out.println(c + isShiny);
 
         // 1. Print the variable values above with String labels. Use concatenation.
 

@@ -4,6 +4,7 @@ public class Exercise19 {
         String message = "Mucho Mucho Amor";
         System.out.println(message);
         // 1. Print the length of the message below.
-        // Leave existing code intact.
+        // Leave existing code intact
+        System.out.println(message.length());
     }
 }

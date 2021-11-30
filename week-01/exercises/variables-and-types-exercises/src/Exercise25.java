@@ -1,10 +1,15 @@
 public class Exercise25 {
+    public static void main(String[] args) {
+        String noun1 = "Hippo";
+        String noun2 = "Lion";
+        String adjective1 = "running";
+        String verb1 = "ate";
+        String adjective2 = "Stupid";
+        String adverb = "Increasingly";
+        String exclamation = "Gosh Darn It All to Heck!";
 
-    // Mad Libs: https://en.wikipedia.org/wiki/Mad_Libs
-    // 1. Add a main method.
-    // 2. Declare several variables of various types to be "plugged in" to a Mad Libs sentence.
-    // 3. Use string concatenation to build a silly sentence.
-    // 4. Print the result.
-    // 5. Change variable values to change the sentence. Ask a friend for random values to increase the chances
-    // of something hilarious or kinda naughty.
+        System.out.println("Once upon a time there was a " + noun1 + " and " + adverb + " " + adjective2 + " " + noun2 + ". One day the " + noun2 + " went " + adjective1 + " and " + verb1 + " the " + noun1 + "'s toe. The " + noun1 + " said " + exclamation );
+
+    }
+
 }
