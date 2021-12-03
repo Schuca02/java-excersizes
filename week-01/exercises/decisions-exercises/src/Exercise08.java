@@ -17,6 +17,10 @@ public class Exercise08 {
             opposite = "hot";
         } else if (word.equalsIgnoreCase("little")) {
             opposite = "big";
+        } else if (word.equalsIgnoreCase("weak")) {
+            opposite = "strong";
+        } else if (word.equalsIgnoreCase("on")) {
+            opposite = "off";
         }
 
         if (opposite == null) {

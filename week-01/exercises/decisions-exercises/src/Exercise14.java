@@ -22,6 +22,24 @@ public class Exercise14 {
             case 1:
                 System.out.println("I refuse to say \"a case of the Mondays\".");
                 break;
+            case 2:
+                System.out.println("Tuesday is just Monday by a different name");
+                break;
+            case 3:
+                System.out.println("Remember the hump-day commercials with the camel? Yeah that's today.");
+                break;
+            case 4:
+                System.out.println("Thirsty Thursday! (and a nice time to see shows)");
+                break;
+            case 5:
+                System.out.println("Friday means no management past 2!");
+                break;
+            case 6:
+                System.out.println("I've been invited out, better sit in my PJs all night instead!");
+                break;
+            case 7:
+                System.out.println("This is the day of our human over-Lords.");
+                break;
             default:
                 System.out.println("I don't recognize that day.");
                 break;

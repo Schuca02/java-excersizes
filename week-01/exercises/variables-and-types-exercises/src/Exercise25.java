@@ -8,7 +8,7 @@ public class Exercise25 {
         String adverb = "Increasingly";
         String exclamation = "Gosh Darn It All to Heck!";
 
-        System.out.println("Once upon a time there was a " + noun1 + " and " + adverb + " " + adjective2 + " " + noun2 + ". One day the " + noun2 + " went " + adjective1 + " and " + verb1 + " the " + noun1 + "'s toe. The " + noun1 + " said " + exclamation );
+        System.out.println("Once upon a time there was a %s and %s %s %s. One day the %s went %s and %s the %s's toe. The %s said %s" noun );
 
     }
 

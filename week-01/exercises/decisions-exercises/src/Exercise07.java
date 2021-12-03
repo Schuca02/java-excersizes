@@ -1,34 +1,35 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Exercise07 {
 
     public static void main(String[] args) {
-        // HOMEWORK
-        // Abdi decides if he should do homework using the following criteria:
-        // If the day of the week starts with "S" and he has less than 15 hours of homework, he skips homework for the day.
-        // If the day of the week starts with any other letter or he has more than 15 hours of homework, he does his homework.
+
+        String workPhrase = "Time to do homework.";
+        String freePhrase = "I'm taking the day off!";
 
         Scanner console = new Scanner(System.in);
         System.out.print("Hours of homework: ");
         int hoursOfHomework = Integer.parseInt(console.nextLine());
 
         System.out.println("Day of the week: ");
-        String dayOfWeek = console.nextLine();
+        String dayOfWeek = console.nextLine()
+                .toLowerCase(Locale.ROOT);
 
-        // 1. Create if/else statements to enforce Abdi's homework rules.
-        // 2. Print data-rich messages for each scenario.
+        char result = dayOfWeek.charAt(0);
 
-        // Examples
-        // Hours of homework: 12
-        // Day of week: Saturday
-        // I'm taking the day off!
-        //
-        // Hours of homework: 2
-        // Day of week: Thursday
-        // Time to do the homework...
-        //
-        // Hours of homework: 20
-        // Day of week: Sunday
-        // Time to do the homework...
+        if (result == 's' && hoursOfHomework < 15){
+            System.out.println("Hours of homework: " + hoursOfHomework);
+            System.out.println("Day of week: " + dayOfWeek);
+            System.out.println(freePhrase);
+        } else if(result == 's' && hoursOfHomework >= 15){
+            System.out.println("Hours of homework: " + hoursOfHomework);
+            System.out.println("Day of week: " + dayOfWeek);
+            System.out.println(workPhrase);
+        }else if(!(result == 's')){
+            System.out.println("Hours of homework: " + hoursOfHomework);
+            System.out.println("Day of week: " + dayOfWeek);
+            System.out.println(workPhrase);
+        }
     }
 }

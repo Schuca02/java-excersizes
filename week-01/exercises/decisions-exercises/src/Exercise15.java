@@ -11,6 +11,18 @@ public class Exercise15 {
         String word = console.nextLine();
         String opposite = null;
 
+        switch (word) {
+            case "big":
+        System.out.println("small");
+        break;
+            case "left":
+        System.out.println("right");
+        break;
+            default:
+        System.out.println("I don't know that word!");
+        break;
+        }
+
         // 1. Re-implement Exercise08 using a switch statement.
     }
 }
