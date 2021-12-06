@@ -4,6 +4,13 @@ public class Exercise01 {
 
         String firstCompliment = getRandomCompliment();
         System.out.println(firstCompliment);
+        String compA = getRandomCompliment();
+        String compB = getRandomCompliment();
+        if (compA == compB){
+            getRandomCompliment();
+        }
+
+        System.out.printf("%s %n%s", compA, compB);
 
         // Call the getRandomCompliment method two more times.
         // 1. Store the result in a new string variable.

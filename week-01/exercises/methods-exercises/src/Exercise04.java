@@ -4,6 +4,7 @@ public class Exercise04 {
         System.out.println(getFirstVowel("magnificent")); // Expected: a
         System.out.println(getFirstVowel("winsome")); // Expected: i
         System.out.println(getFirstVowel("xxx")); // Expected:
+        System.out.println(getFirstVowel("Jolly"));//Expected: o
 
         // 2. Call getFirstVowel at least one more time.
     }
@@ -12,6 +13,18 @@ public class Exercise04 {
     // 1. Complete getFirstVowel.
     // If no vowel is found, return 0. (As a char, 0 represents the NULL value.)
     public static char getFirstVowel(String value) {
-        return 0;
+        String vowels = "aeiou";
+
+        for (int i = 0; i < value.length(); i++) {
+            char c = value.charAt(i);
+            int index = vowels.indexOf(c);
+
+            if (index == -1) {
+//                System.out.print(0);
+            } else {
+                return c;
+            }
+        } return 0;
+
     }
 }
