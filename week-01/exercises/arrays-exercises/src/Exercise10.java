@@ -10,8 +10,16 @@ public class Exercise10 {
         // 1. Count the number of beetles and mosquitoes.
         // 2. Print the result.
         // Results will vary because of randomness.
-    }
 
+        int sum = 0;
+        int othersum = 0;
+
+        for (int i = 0; i < bugs.length; i++) {
+            if (bugs[i] == "beetle"){
+                sum++;
+            }else othersum++;
+        }System.out.printf("Beetles: %s%nMosquitoes: %s", sum, othersum);
+    }
     public static String[] makeBugArray() {
         String[] bugs = new String[200];
         Arrays.fill(bugs, "beetle");

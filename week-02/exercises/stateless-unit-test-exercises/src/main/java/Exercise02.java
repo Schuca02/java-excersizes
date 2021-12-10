@@ -17,9 +17,16 @@ public class Exercise02 {
      *
      * @param text    string value to be surrounded by an HTML tag
      * @param tagName the HTML tag name
-     * @return string in the form: <tagName>text</tagName>
      */
     static String surroundWithTag(String text, String tagName) {
-        return null;
+        if (tagName == null) {
+            tagName = "";
+            return String.format("%s%s%s", tagName, text, tagName);
+        } else if (text == null) {
+            text = "";
+            return String.format("<%s>%s</%s", tagName, text, tagName);
+        }
+
+        return String.format("<%s>%s</%s>", tagName, text, tagName);
     }
 }

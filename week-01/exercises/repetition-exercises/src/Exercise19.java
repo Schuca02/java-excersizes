@@ -24,5 +24,33 @@ public class Exercise19 {
         // "B", "igstar" -> "Bigstar"
         // "", "huh?" -> "huh?"
         // "wha?", "" -> "wha?"
+
+        if (first.length() < second.length()) {
+            for (int i = 0; i < first.length(); i++) {
+
+
+                System.out.print(first.charAt(i));
+                System.out.print(second.charAt(i));
+
+            }
+            System.out.print(second.substring(first.length()));
+
+        } else {
+            for (int i = 0; i < second.length(); i++) {
+
+                System.out.print(first.charAt(i));
+                System.out.print(second.charAt(i));
+
+            }
+            System.out.print(first.substring(second.length()));
+
+        }
+
     }
 }
+
+
+
+
+
+

@@ -11,6 +11,18 @@ public class Exercise06 {
 
         // 1. Use a loop to find the game in `games` that can be played by the most players.
         // 2. Print the game. (Expected: "Ultimate Werewolf...")
+        BoardGame maxPlayer = null;
+        for (BoardGame game : games) {
+            if (maxPlayer == null) {
+                maxPlayer = game;
+
+            } else if (game.getMaxPlayers() > maxPlayer.getMaxPlayers()) {
+                maxPlayer = game;
+            }
+
+        }
+
+
     }
 }
 

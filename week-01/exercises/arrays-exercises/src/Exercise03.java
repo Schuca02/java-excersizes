@@ -5,6 +5,11 @@ public class Exercise03 {
         for (int i = 0; i < commonlyMisspelledWords.length; i++) {
             System.out.println(commonlyMisspelledWords[i]);
         }
+        commonlyMisspelledWords[3] = "comparison";
+
+        for (int i = 0; i < commonlyMisspelledWords.length; i++){
+            System.out.println(commonlyMisspelledWords[i]);
+        }
 
         // One of the commonlyMisspelledWords is misspelled.
         // (IntelliJ may help here. It highlights misspelled words.)

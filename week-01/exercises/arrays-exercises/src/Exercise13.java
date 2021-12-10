@@ -11,8 +11,24 @@ public class Exercise13 {
         // 2. Create a String[] to hold the towns.
         // 3. Loop through statesOrTowns a second time and put all towns in the new array.
         // 4. Print the town array.
-    }
 
+        int towncount = 0;
+
+        for (int i = 0; i < statesOrTowns.length; i++) {
+            if (statesOrTowns[i].length() != 2) {
+                towncount++;
+            }
+        }
+        String[] towns = new String[towncount];
+        int y = 0;
+        for (int i = 0; i < statesOrTowns.length; i++) {
+            if (statesOrTowns[i].length() != 2) {
+                towns[y] = statesOrTowns[i];
+                System.out.println(towns[y]);
+                y++;
+            }
+        }
+    }
     public static String[] makeRandomStateAndTownArray() {
         Random random = new Random();
         String[] result = new String[random.nextInt(100) + 50];
