@@ -8,34 +8,60 @@ import learn.gomoku.players.RandomPlayer;
 
 
 public class GameController {
+    private Gomoku game;
+    private Scanner console = new Scanner(System.in);
+    private char[][] board = new char[Gomoku.WIDTH][Gomoku.WIDTH];
+
     public void run() {
 
-        Scanner console = new Scanner(System.in);
+        setUp(console);
 
-        Gomoku game = setUp(console);
 
-        while (!game.isOver()){
+        while (!game.isOver()) {
             System.out.println("It's your turn " + game.getCurrent().getName());
+            printBoard();
             Stone stone = game.getCurrent().generateMove(game.getStones());
+            if (stone == null) {
+                int row = readInt("Enter a row: ", 1, 15) - 1;
+                int column = readInt("Enter a column: ", 1, 15) - 1;
+                stone = new Stone(row, column, game.isBlacksTurn());
+
+            }
             Result result = game.place(stone);
-            if (!result.isSuccess()){
+            if (!result.isSuccess()) {
                 System.out.println("Err: " + result.getMessage());
             }
         }
-        if (game.getWinner() == null){
+
+        if (game.getWinner() == null) {
             System.out.println("It's a tie!");
-        }else{
-            System.out.println("The winner is: " + game.getWinner());
+        } else {
+            System.out.println("The winner is: " + game.getWinner().getName());
         }
-
-//        System.out.println("readInt(\"Submit only ints or die\" , 15, 15) = " + readInt("Submit only ints or die", 15, 15));
-
 
 
         playAgain("Do you want to play again? [y/n] ");
 
 
     }
+
+    private void printBoard() {
+        for (Stone s : game.getStones()) {
+            board[s.getRow()][s.getColumn()] = s.isBlack() ? 'X' : 'O';
+        }
+        for (int row = 0; row < Gomoku.WIDTH; row++) {
+            for (int col = 0; col < Gomoku.WIDTH; col++) {
+                if (board[row][col] == 0) {
+                    System.out.print("_");
+                } else {
+                    System.out.print(board[row][col]);
+                }
+            }
+            System.out.println();
+        }
+
+    }
+
 
     public static String readRequiredString(String prompt) {
         Scanner console = new Scanner(System.in);
@@ -58,7 +84,6 @@ public class GameController {
                 return true;
             }
         }
-        System.out.println("That's not a valid input");
         return false;
     }
 
@@ -76,7 +101,6 @@ public class GameController {
         String theInput;
         boolean valid = false;
         do {
-            System.out.print("Enter the coordinates of your move: ");
             theInput = readRequiredString(message);
             if (theInput.length() > 0) {
                 valid = validateTheInputIsANumber(theInput);
@@ -88,7 +112,7 @@ public class GameController {
         return Integer.parseInt(theInput);
     }
 
-    private Gomoku setUp(Scanner console) {
+    private void setUp(Scanner console) {
         System.out.println("Welcome to Gomoku");
         System.out.println("=".repeat(18) + "\n");
 
