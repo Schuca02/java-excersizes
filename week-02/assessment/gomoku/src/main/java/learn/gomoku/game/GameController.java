@@ -15,34 +15,37 @@ public class GameController {
     public void run() {
 
         setUp(console);
+        play();
+        playAgain("Do you want to play again? [y/n] ");
 
+        System.out.println("I don't get called!");
+    }
 
+    private void play() {
         while (!game.isOver()) {
             System.out.println("It's your turn " + game.getCurrent().getName());
             printBoard();
             Stone stone = game.getCurrent().generateMove(game.getStones());
-            if (stone == null) {
+            if (isHuman(stone)) {
                 int row = readInt("Enter a row: ", 1, 15) - 1;
                 int column = readInt("Enter a column: ", 1, 15) - 1;
                 stone = new Stone(row, column, game.isBlacksTurn());
-
             }
             Result result = game.place(stone);
             if (!result.isSuccess()) {
                 System.out.println("Err: " + result.getMessage());
             }
         }
-
         if (game.getWinner() == null) {
             System.out.println("It's a tie!");
         } else {
             System.out.println("The winner is: " + game.getWinner().getName());
         }
+    }
 
+    private boolean isHuman(Stone stone) {
 
-        playAgain("Do you want to play again? [y/n] ");
-
-
+        return stone == null;
     }
 
     private void printBoard() {
