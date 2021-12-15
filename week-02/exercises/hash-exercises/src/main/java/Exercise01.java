@@ -12,7 +12,8 @@ public class Exercise01 {
         // The value is an instance of a Vehicle.
 
         HashMap<String, Vehicle> vehicleMap = VehicleRepository.getMap();
-
+        Vehicle cars = vehicleMap.get("2G4WD582061270646");
+        System.out.println(cars);
         // 1. Retrieve the vehicle with the VIN: 2G4WD582061270646 from `vehicleMap`. Store the vehicle in a variable.
         // 2. Print it to stdout. Confirm it's a Khaki 1989 Buick LeSabre.
     }

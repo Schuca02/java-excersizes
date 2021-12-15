@@ -1,8 +1,29 @@
 public class Exercise09 {
 
-    public static void main(String[] args) {
-        // 2. Call your method in various ways to test it here.
+    public static void printBox(int a, int b) {
+
+        for (int i = 0; i < a; i++) {
+            for (int x = 0; x < b; x++) ;
+
+        }
     }
+            public static void main(String[] args) {
+        // 2. Call your method in various ways to test it here.
+
+
+
+
+    }
+
+//    public static void printBox(int a, int b){
+//        int a = 4;
+//
+//        for (int i = 0; i < a; i++){
+//            for (int x = 0; x < b; x++);
+//
+//        }
+//
+//    }
 
     // 1. Create a method.
     // Name: printBox

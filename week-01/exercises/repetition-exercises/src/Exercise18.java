@@ -28,5 +28,14 @@ public class Exercise18 {
         // "orange", 15, 25 -> "orange" (ignore when start and end are bigger than the length of the phrase)
         // "one two three", 4, 7 -> "one three"
         // "interrupting moooo cow", 12, 17 -> "interrupting cow"
+
+
+        for (int i = 0; i < phrase.length(); i++) {
+            if (i >= start && i <= end) {
+
+            } else System.out.print(phrase.charAt(i));
+        }
+
     }
+
 }

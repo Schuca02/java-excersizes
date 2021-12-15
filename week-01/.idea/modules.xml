@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/exercises/arrays-exercises/arrays-exercises.iml" filepath="$PROJECT_DIR$/exercises/arrays-exercises/arrays-exercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercises/decisions-exercises/decisions-exercises.iml" filepath="$PROJECT_DIR$/exercises/decisions-exercises/decisions-exercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercises/methods-exercises/methods-exercises.iml" filepath="$PROJECT_DIR$/exercises/methods-exercises/methods-exercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercises/repetition-exercises/repetition-exercises.iml" filepath="$PROJECT_DIR$/exercises/repetition-exercises/repetition-exercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercises/variables-and-types-exercises/variables-and-types-exercises.iml" filepath="$PROJECT_DIR$/exercises/variables-and-types-exercises/variables-and-types-exercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/week-01.iml" filepath="$PROJECT_DIR$/.idea/week-01.iml" />
+    </modules>
+  </component>
+</project>

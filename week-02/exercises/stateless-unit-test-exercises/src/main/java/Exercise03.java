@@ -1,3 +1,5 @@
+import java.util.Locale;
+
 public class Exercise03 {
 
     // 1. Read the hasAllVowels JavaDocs.
@@ -12,7 +14,19 @@ public class Exercise03 {
      * @param value the string to test
      * @return true if the value contains all 5 vowels, false if it doesn't
      */
+
     static boolean hasAllVowels(String value) {
-        return false;
+        if (value == null) {
+            return false;
+        }
+        value = value.toLowerCase(Locale.ROOT);
+        String vowels = "aeiou";
+        for (int i = 0; i < vowels.length(); i++) {
+            String vowel = Character.toString(vowels.charAt(i));
+            if (!(value.contains(vowel))) {
+                return false;
+            }
+        }
+        return true;
     }
 }

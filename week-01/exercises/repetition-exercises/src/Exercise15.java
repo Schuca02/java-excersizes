@@ -17,5 +17,14 @@ public class Exercise15 {
         // ####
         // ####
         // ####
+        int rows = 3;
+        int columns = 6;
+
+        for (int i = 0; i < rows; i++) {
+           for (int x = 0; x < columns; x++){
+               System.out.printf("#");
+           }
+           System.out.println("");
+        }
     }
 }
