@@ -6,11 +6,20 @@ import learn.unexplained.models.Encounter;
 import learn.unexplained.models.EncounterType;
 import org.junit.jupiter.api.Test;
 
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class EncounterServiceTest {
 
     EncounterService service = new EncounterService(new EncounterRepositoryDouble());
+
+    @Test
+    void shouldFindByType() throws DataAccessException {
+        List<Encounter> encounters = service.findByType(EncounterType.CREATURE);
+        assertNotNull(encounters);
+        assertEquals(1, encounters.size());
+    }
 
     @Test
     void shouldNotAddNull() throws DataAccessException {
@@ -54,7 +63,7 @@ class EncounterServiceTest {
 
     @Test
     void shouldNotAddDuplicate() throws DataAccessException {
-        Encounter encounter = new Encounter(0, EncounterType.CREATURE, "1/1/2015", "test description", 1);
+        Encounter encounter = new Encounter(2, EncounterType.CREATURE, "2021-12-23", "Scary bigfoot", 2);
         EncounterResult expected = makeResult("duplicate encounter is not allowed");
         EncounterResult actual = service.add(encounter);
         assertEquals(expected, actual);
@@ -68,6 +77,36 @@ class EncounterServiceTest {
 
         EncounterResult actual = service.add(encounter);
         assertEquals(expected, actual);
+    }
+
+    @Test
+    void shouldUpdate() throws DataAccessException {
+        EncounterResult result = service.update(new Encounter(4, EncounterType.VISION, "2020-02-05", "Little Pirate Ghost", 1));
+        assertTrue(result.isSuccess());
+    }
+
+    @Test
+    void shouldNotUpdateType() throws DataAccessException {
+        EncounterResult result = service.update(new Encounter(4, EncounterType.SOUND, "2020-02-05", "Little Pirate Ghost", 1));
+        assertFalse(result.isSuccess());
+    }
+
+    @Test
+    void shouldNotUpdateNotValid() throws DataAccessException {
+        EncounterResult result = service.update(new Encounter(20, EncounterType.SOUND, "2020-02-05", "Little Pirate Ghost", 1));
+        assertFalse(result.isSuccess());
+    }
+
+    @Test
+    void shouldDeleteById() throws DataAccessException {
+        EncounterResult result = service.deleteById(14);
+        assertTrue(result.isSuccess());
+    }
+
+    @Test
+    void shouldNotDeleteById() throws DataAccessException{
+        EncounterResult result = service.deleteById(3);
+        assertFalse(result.isSuccess());
     }
 
     private EncounterResult makeResult(String message) {

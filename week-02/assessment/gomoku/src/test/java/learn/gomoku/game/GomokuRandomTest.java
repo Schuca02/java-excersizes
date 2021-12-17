@@ -40,7 +40,6 @@ class GomokuRandomTest {
             } while (!result.isSuccess());
         }
     }
-
     @Test
     void makeNames() {
         // A simple test to exercise the logic within the `RandomPlayer` class

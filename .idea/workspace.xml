@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4969c0b7-3f2a-4da8-b862-a5120d8f7b51" name="Changes" comment="Updated Excersizes M 3">
+      <change afterPath="$PROJECT_DIR$/.idea/java-excersizes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-03/exercises/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-03/exercises/.idea/exercises.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-03/exercises/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-03/exercises/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-03/exercises/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-03/exercises/FileIOpractice/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-03/exercises/FileIOpractice/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-03/exercises/FileIOpractice/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-03/exercises/FileIOpractice/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-03/exercises/FileIOpractice/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-03/exercises/FileIOpractice/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-03/exercises/enum-exercises/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-03/exercises/enum-exercises/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-03/exercises/enum-exercises/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-03/exercises/enum-exercises/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-03/exercises/enum-exercises/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-03/exercises/enum-exercises/src/main/java/learn/cards/Rank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-03/exercises/enum-exercises/src/main/java/learn/cards/Suits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-03/exercises/unexplained-encounters/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-03/exercises/unexplained-encounters/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-03/exercises/unexplained-encounters/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-03/exercises/unexplained-encounters/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-03/exercises/unexplained-encounters/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-03/exercises/unexplained-encounters/data/encounters-seed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-03/exercises/warmup5/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-03/exercises/warmup5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-03/exercises/warmup5/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-03/exercises/warmup5/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-03/exercises/warmup5/src/warmup5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week-03/exercises/warmup5/warmup5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-02/assessment/gomoku/src/main/java/learn/gomoku/game/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/week-02/assessment/gomoku/src/main/java/learn/gomoku/game/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-02/assessment/gomoku/src/test/java/learn/gomoku/game/GomokuRandomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/week-02/assessment/gomoku/src/test/java/learn/gomoku/game/GomokuRandomTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-03/exercises/enum-exercises/enum-exercises.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-03/exercises/enum-exercises/src/main/java/learn/cards/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/week-03/exercises/enum-exercises/src/main/java/learn/cards/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-03/exercises/enum-exercises/src/main/java/learn/poker/TwoCardHand.java" beforeDir="false" afterPath="$PROJECT_DIR$/week-03/exercises/enum-exercises/src/main/java/learn/poker/TwoCardHand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-03/exercises/enum-exercises/src/test/java/learn/cards/CardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/week-03/exercises/enum-exercises/src/test/java/learn/cards/CardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-03/exercises/enum-exercises/src/test/java/learn/poker/TwoCardHandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/week-03/exercises/enum-exercises/src/test/java/learn/poker/TwoCardHandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-03/exercises/unexplained-encounters/data/encounters-test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/week-03/exercises/unexplained-encounters/data/encounters-test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-03/exercises/unexplained-encounters/src/main/java/learn/unexplained/data/EncounterFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/week-03/exercises/unexplained-encounters/src/main/java/learn/unexplained/data/EncounterFileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-03/exercises/unexplained-encounters/src/main/java/learn/unexplained/data/EncounterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/week-03/exercises/unexplained-encounters/src/main/java/learn/unexplained/data/EncounterRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-03/exercises/unexplained-encounters/src/main/java/learn/unexplained/domain/EncounterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/week-03/exercises/unexplained-encounters/src/main/java/learn/unexplained/domain/EncounterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-03/exercises/unexplained-encounters/src/test/java/learn/unexplained/data/EncounterFileRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/week-03/exercises/unexplained-encounters/src/test/java/learn/unexplained/data/EncounterFileRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-03/exercises/unexplained-encounters/src/test/java/learn/unexplained/data/EncounterRepositoryDouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/week-03/exercises/unexplained-encounters/src/test/java/learn/unexplained/data/EncounterRepositoryDouble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-03/exercises/unexplained-encounters/src/test/java/learn/unexplained/domain/EncounterServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/week-03/exercises/unexplained-encounters/src/test/java/learn/unexplained/domain/EncounterServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week-03/exercises/unexplained-encounters/unexplained-encounters.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="22HXycQR2Xf0TamKyAymhw3RSn1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../M2 Lessons" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4969c0b7-3f2a-4da8-b862-a5120d8f7b51" name="Changes" comment="" />
+      <created>1639495742494</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639495742494</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated Excersizes M 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Excersizes M 3" />
+  </component>
+</project>

@@ -1,8 +1,22 @@
 package learn.cards;
 
 public class Card {
+Suits suits;
+Rank rank;
 
-    // 1. Add a Suit and Rank field the Card class.
+    public Suits getSuits() {
+        return suits;
+    }
+
+    public Rank getRank() {
+        return rank;
+    }
+
+    public Card(Rank rank, Suits suits) {
+        this.suits = suits;
+        this.rank = rank;
+    }
+// 1. Add a Suit and Rank field the Card class.
     // 2. Add a constructor that accepts a Suit and Rank and sets the appropriate fields.
     // 3. Add getters for both suit and rank.
 
@@ -20,6 +34,6 @@ public class Card {
 
         // Note: it's unlikely you'll be able to use the enum name directly since enum naming conventions
         // don't match the required output.
-        return null;
+        return String.format("%s of %s", rank.name(), suits.name());
     }
 }

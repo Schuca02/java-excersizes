@@ -105,8 +105,13 @@ public class GameController {
         boolean valid = false;
         do {
             theInput = readRequiredString(message);
-            if (theInput.length() > 0) {
-                valid = validateTheInputIsANumber(theInput);
+
+            valid = theInput.length() > 0
+                    && validateTheInputIsANumber(theInput)
+                    && min <= Integer.parseInt(theInput)
+                    && max >= Integer.parseInt(theInput);
+            if (!valid) {
+                System.out.println("That's not a valid input");
             }
         }
         while (!valid);
@@ -119,50 +124,52 @@ public class GameController {
         System.out.println("Welcome to Gomoku");
         System.out.println("=".repeat(18) + "\n");
 
-        System.out.println("Player 1 is:");
-        System.out.println("1. Human");
-        System.out.println("2. Random Player");
-        System.out.printf("Select [1-2]: ");
+        Player player1 = getPlayer(console, "Player 1 is: ");
+        Player player2 = getPlayer(console, "Player 2 is: ");
 
-        int choice = console.nextInt();
-        console.nextLine();
+        game = new Gomoku(player1, player2);
+        board = new char[Gomoku.WIDTH][Gomoku.WIDTH];
 
-        if (choice == 1) {
-            System.out.printf("Enter your name: ");
-            String name = console.nextLine();
-            HumanPlayer player = new HumanPlayer(name);
-            System.out.println("\nHello " + player.getName() + "\n");
+        System.out.println("(Randomizing)\n");
+        System.out.println(game.getCurrent().getName() + " goes first!");
 
-        } else {
-            RandomPlayer randomPlayer1 = new RandomPlayer();
-            System.out.println("\n" + randomPlayer1.getName() + "\n");
+    }
+
+    public boolean playAgain(String prompt) {
+        String exit = readRequiredString(prompt);
+        if (exit.equalsIgnoreCase("y")) {
+            run();
+            return true;
         }
+        System.out.println("Goodbye!");
+        return false;
 
-        System.out.println("Player 2 is:");
+    }
+
+    private Player getPlayer(Scanner console, String prompt) {
+        System.out.println(prompt);
         System.out.println("1. Human");
         System.out.println("2. Random Player");
-        System.out.printf("Select [1-2]: ");
+        System.out.print("Select [1-2]: ");
 
         int choiceTwo = console.nextInt();
         console.nextLine();
 
-
+        Player thePlayer;
         if (choiceTwo == 1) {
-            System.out.printf("Enter your name: ");
+            System.out.print("Enter your name: ");
             String name = console.nextLine();
-            HumanPlayer player2 = new HumanPlayer(name);
-            System.out.println("\nHello " + player2.getName() + "\n");
+            thePlayer = new HumanPlayer(name);
+            System.out.println("\nHello " + thePlayer.getName() + "\n");
 
         } else {
-            RandomPlayer randomPlayer2 = new RandomPlayer();
-            System.out.println("\n" + randomPlayer2.getName());
+            thePlayer = new RandomPlayer();
+            System.out.println("\n" + thePlayer.getName() + "\n");
 
         }
-        Gomoku game = new Gomoku(HumanPlayer player.getName(), )
-//Make the board
-//        Call the Game (Player 1, Player 2) --Figure out how to get those Players in scope.
-
-
+        return thePlayer;
     }
+
+
 }
 
