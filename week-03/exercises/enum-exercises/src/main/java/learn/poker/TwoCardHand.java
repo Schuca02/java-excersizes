@@ -28,6 +28,61 @@ public class TwoCardHand implements Comparable<TwoCardHand> {
         // If `this` has a higher score than the TwoCardHand parameter, compareTo returns an int greater than 0.
         // If `this` and the TwoCardHand parameter have the same score, compareTo returns 0.
         // See Exercise04.md for scoring rules.
+
+        if ((this.one.getRank() == this.two.getRank())
+                && (o.one.getRank() == o.two.getRank())
+                && this.one.getRank().getValue() > o.one.getRank().getValue()) {
+            return 1;
+        } else if ((this.one.getRank() == this.two.getRank())
+                && (o.one.getRank() == o.two.getRank())
+                && this.one.getRank().getValue() < o.one.getRank().getValue()) {
+            return -1;
+        }
+
+        if ((this.one.getRank() == this.two.getRank())
+                && o.one.getRank() != o.two.getRank()) {
+            return 1;
+        } else if ((o.one.getRank() == o.two.getRank())
+                && this.one.getRank() != this.two.getRank()) {
+            return -1;
+        }
+        if (this.one.getRank() == o.one.getRank()
+                && this.two.getRank().getValue() > o.two.getRank().getValue()
+                || this.two.getRank() == o.two.getRank()
+                && this.one.getRank().getValue() > o.one.getRank().getValue()) {
+            return 1;
+        } else if (this.one.getRank() == o.one.getRank()
+                && this.two.getRank().getValue() < o.two.getRank().getValue()
+                || this.two.getRank() == o.two.getRank()
+                && this.one.getRank().getValue() < o.one.getRank().getValue()) {
+            return -1;
+        }
+
+        if (this.one.getRank().getValue() > this.two.getRank().getValue()
+                && o.one.getRank().getValue() > o.two.getRank().getValue()
+                && this.one.getRank().getValue() > o.one.getRank().getValue()
+                || (this.one.getRank().getValue() < this.two.getRank().getValue()
+                && o.one.getRank().getValue() < o.two.getRank().getValue()
+                && this.two.getRank().getValue() > o.two.getRank().getValue())
+                || (this.one.getRank().getValue() > this.two.getRank().getValue()
+                && o.one.getRank().getValue() < o.two.getRank().getValue()
+                && this.one.getRank().getValue() > o.two.getRank().getValue())
+                || (this.one.getRank().getValue() < this.two.getRank().getValue()
+                && o.one.getRank().getValue() > o.two.getRank().getValue()
+                && this.two.getRank().getValue() > o.one.getRank().getValue())) {
+            return 1;
+        }
+
+        if ((this.one.getRank() == this.two.getRank())
+                && o.one.getRank() == o.two.getRank()
+                && this.one.getRank() == o.one.getRank()
+                || this.one.getRank().getValue() == o.one.getRank().getValue()
+                && this.two.getRank().getValue() == o.two.getRank().getValue()
+                || this.two.getRank().getValue() == o.one.getRank().getValue()
+                && this.one.getRank().getValue() == o.two.getRank().getValue()) {
+
+        }
         return 0;
     }
 }
+

@@ -11,6 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class EncounterFileRepositoryTest {
 
+//    static final String SEED_PATH = "./data/encounters-seed.csv";
     static final String TEST_PATH = "./data/encounters-test.csv";
     final Encounter[] testEncounters = new Encounter[]{
             new Encounter(1, EncounterType.UFO, "2020-01-01", "short test #1", 1),
@@ -52,6 +53,51 @@ class EncounterFileRepositoryTest {
 
         assertNotNull(actual);
         assertEquals(4, actual.getEncounterId());
+    }
+
+    @Test
+    void shouldUpdateExisting() throws DataAccessException {
+        Encounter encounter = new Encounter();
+        encounter.setEncounterId(3);
+        encounter.setType(EncounterType.SOUND);
+        encounter.setWhen("2021-05-05");
+        encounter.setDescription("Little Boy");
+        encounter.setOccurrences(2);
+
+        boolean success = repository.update(encounter);
+
+        assertTrue(success);
+
+        Encounter actual = repository.findById(3);
+        assertNotNull(actual);
+        assertEquals("Little Boy", actual.getDescription());
+        assertEquals("2021-05-05", actual.getWhen());
+    }
+
+    @Test
+    void shouldNotUpdateExisting() throws DataAccessException {
+        Encounter encounter = new Encounter();
+        encounter.setEncounterId(1000);
+
+        boolean actual = repository.update(encounter);
+        assertFalse(actual);
+
+    }
+
+    @Test
+    void shouldDelete() throws DataAccessException {
+        boolean actual = repository.deleteById(2);
+        assertTrue(actual);
+
+        Encounter e = repository.findById(2);
+        assertNull(e);
+    }
+
+    @Test
+    void shouldNotDelete() throws DataAccessException {
+        boolean actual = repository.deleteById(112304);
+        assertFalse(actual);
+
     }
 
 }
