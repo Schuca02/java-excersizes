@@ -1,14 +1,8 @@
 package learn.solar.ui;
 
 import learn.solar.data.DataAccessException;
-import learn.solar.data.PanelRepository;
 import learn.solar.domain.PanelService;
-import learn.solar.data.PanelFileRepository;
-import learn.solar.domain.PanelResult;
-import learn.solar.models.Material;
 import learn.solar.models.Panel;
-
-import java.util.List;
 
 public class Controller {
 
@@ -38,7 +32,7 @@ public class Controller {
             switch (options) {
                 case ADD -> addPanel();
                 case DISPLAY_SECTION -> displaySections();
-//                case UPDATE_PANEL -> updatePanel();
+                case UPDATE_PANEL -> updatePanel();
                 case DELETE_PANEL -> deletePanel();
                 case EXIT -> view.printHeader("Goodbye");
             }
@@ -57,14 +51,12 @@ public class Controller {
 
     private void updatePanel() throws DataAccessException {
         view.printHeader(MenuOptions.UPDATE_PANEL.getTitle());
-        List<Panel> panels = service.findAll();
+        Panel p = view.update(service.findBySection(view.readSection()));
 
-//        1. What panel do you want to update?
-//        1.1 Does it exist? If not, print error.
-        // 2. What would you like it to be updated to?
-        // 3. Delete old panel, create new panel.
+        view.displayResult(service.update(p));
+
+
     }
-
     private void deletePanel() throws DataAccessException {
         view.printHeader(MenuOptions.DELETE_PANEL.getTitle());
         Panel key = view.deletePanel();

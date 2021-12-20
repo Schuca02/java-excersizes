@@ -1,2 +1,3 @@
 Section,row,column,material,year_installed,sun-tracking
-Main,1,1,CIGS,2013,True
+Main,1,1,CIGS,2019,true
+Main,1,2,CDTE,2020,true

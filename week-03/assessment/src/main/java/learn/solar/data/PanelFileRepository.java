@@ -45,18 +45,10 @@ public class PanelFileRepository implements PanelRepository {
     public Panel add(Panel panel) throws DataAccessException {
         List<Panel> all = findAll();
 
-        for (int i = 0; i < all.size(); i++) {
-            if (!all.get(i).getSection().equals(panel.getSection())
-                    && all.get(i).getRow() != panel.getRow()
-                    && all.get(i).getColumn() != panel.getColumn()) {
-
                 all.add(panel);
                 writeAll(all);
 
                 return panel;
-            }
-        }
-        return panel;
     }
 
     @Override

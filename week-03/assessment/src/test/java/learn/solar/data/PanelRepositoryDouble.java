@@ -61,4 +61,9 @@ public class PanelRepositoryDouble implements PanelRepository {
     public boolean deleteByKey(String section, int row, int column) throws DataAccessException {
         return true;
     }
+
+    @Override
+    public List<Panel> findAll() throws DataAccessException {
+        return null;
+    }
 }

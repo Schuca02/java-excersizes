@@ -18,7 +18,7 @@ public class View {
         for (int i = 0; i < values.length; i++) {
             System.out.printf("%s. %s%n", i, values[i].getTitle());
         }
-        int index = readInt("Select [0-5]: ", 0, 5);
+        int index = readInt("Select [0-4]: ", 0, 5);
         return values[index];
     }
 
@@ -45,9 +45,7 @@ public class View {
             System.out.println("No Panels to be Displayed.");
         } else {
             for (Panel p : panels) {
-                if (true
-//                p.getSection().equalsIgnoreCase(section)
-                ) {
+                if (true) {
                     System.out.printf("%s, %s, %s, %s, %s, %s%n",
                             p.getSection(),
                             p.getRow(),
@@ -61,31 +59,25 @@ public class View {
     }
 
 
-//    public Panel updatePanel() {
-//        Panel panel = readPanelKey(panels);
-//        if(panel != null){
-//            update(panel);
-//        }
-//
-//        return panel;
-//    }
-
     public Panel update(List<Panel> panels) {
-        if (panels.size() == 0) {
-            System.out.println("No Panels To Update.");
-        }
-        readPanelKey();
+        displayPanelsSection(panels);
+        Panel t = readPanelKeyNoSection();
         for (Panel p : panels) {
-            if (p.getSection().equals(readPanelKey().getSection())
-                    && p.getRow() == readPanelKey().getRow()
-                    && p.getColumn() == readPanelKey().getColumn()) {
+            t.setSection(p.getSection());
+            if (p.getSection().equals(t.getSection())
+                    && p.getRow() == t.getRow()
+                    && p.getColumn() == t.getColumn()) {
                 p.setMaterial(readPanelMaterial());
                 p.setYearInstalled(readInt("Year Installed: "));
                 p.setTracking(readBoolean("Sun Tracking Tech Installed [y/n]: "));
                 return p;
             }
-        } return null;
+        }
+        System.out.println("\nCannot be Updated");
+        return t;
     }
+
+
     public Panel deletePanel() {
         return readPanelKey();
     }
@@ -174,6 +166,13 @@ public class View {
 
         return new Panel(section, row, column, null, -1, false);
 
+    }
+
+    private Panel readPanelKeyNoSection() {
+        int row = readInt("Enter Row: ");
+        int column = readInt("Enter Column: ");
+
+        return new Panel(null, row, column, null, 0, false);
     }
 
 }

@@ -26,6 +26,7 @@ public class PanelService {
         Panel existing = repository.findByKey(panel.getSection(), panel.getRow(), panel.getColumn());
         if (!(existing == null)) {
             result.addErrorMessage("Duplicate panel exists.");
+            return result;
         }
 
         panel = repository.add(panel);
@@ -35,34 +36,17 @@ public class PanelService {
 
     }
 
-    public boolean update(Panel panel) throws DataAccessException {
-        PanelResult result = new PanelResult();
+    public PanelResult update(Panel panel) throws DataAccessException {
+        PanelResult result = validate(panel);
         if (!(findByKey(panel.getSection(), panel.getRow(), panel.getColumn()) == null)) {
             repository.update(panel);
-            return repository.update(panel);
+            return result;
+        }else {
+            result.addErrorMessage("Panel Doesn't Exist");
         }
-        return false;
+        return result;
     }
-//        PanelResult result = validate(panel);
-//        if (result.isSuccess()) {
-//            if (repository.update(panel)) {
-//                result.setPanel(panel);
-//            } else {
-//                result.addErrorMessage("Nope");
-//            }
-//
-//        }
-//        Panel existing = repository.findByKey(panel.getSection(), panel.getRow(), panel.getColumn());
-//        if (existing == null) {
-//            result.addErrorMessage("Must update existing panel");
-//        }
-//        boolean success = repository.update(panel);
-//        if (!success) {
-//            result.addErrorMessage("Panel at " +
-//                    panel.getSection() + ": " + panel.getRow() + ", " + panel.getColumn() + " was not found.");
-//        }
-//        return result;
-//    }
+
 
     public PanelResult deleteByKey(String section, int row, int column) throws DataAccessException {
         PanelResult result = new PanelResult();

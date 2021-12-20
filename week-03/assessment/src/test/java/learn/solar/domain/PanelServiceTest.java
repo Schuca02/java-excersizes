@@ -97,24 +97,24 @@ class PanelServiceTest {
 
     @Test
     void shouldUpdate() throws DataAccessException {
-        boolean result = service.update(
+        PanelResult result = service.update(
                 new Panel("Main", 1, 2, Material.MONO_SI, 2012, true));
-        assertTrue(result);
+        assertTrue(result.isSuccess());
     }
 
     @Test
     void shouldNotUpdate() throws DataAccessException{
-        boolean result = service.update(
+        PanelResult result = service.update(
                 new Panel("Main", 2, 2, Material.MONO_SI, 2012, true));
-        assertFalse(result);
+        assertFalse(result.isSuccess());
     }
 
 
     @Test
     void shouldNotUpdateEmptySection() throws DataAccessException {
-        boolean result = service.update(
+        PanelResult result = service.update(
                 new Panel(" ", 0, 23435, Material.MONO_SI, 2020, true));
-        assertFalse(result);
+        assertFalse(result.isSuccess());
 
     }
 
