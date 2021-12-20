@@ -1,10 +1,10 @@
 package learn.gomoku.game;
 
-import java.util.Scanner;
-
-import learn.gomoku.players.Player;
 import learn.gomoku.players.HumanPlayer;
+import learn.gomoku.players.Player;
 import learn.gomoku.players.RandomPlayer;
+
+import java.util.Scanner;
 
 
 public class GameController {
@@ -137,14 +137,15 @@ public class GameController {
 
     public boolean playAgain(String prompt) {
         String exit = readRequiredString(prompt);
-        if (exit.equalsIgnoreCase("y")) {
+
+        do {
             run();
-            return true;
-        }
+        } while (exit.equalsIgnoreCase("n"));
         System.out.println("Goodbye!");
         return false;
 
     }
+
 
     private Player getPlayer(Scanner console, String prompt) {
         System.out.println(prompt);
