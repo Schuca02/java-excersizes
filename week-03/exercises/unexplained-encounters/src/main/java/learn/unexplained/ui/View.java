@@ -9,6 +9,7 @@ import java.util.Scanner;
 
 public class View {
 
+    public EncounterType readType;
     private Scanner console = new Scanner(System.in);
 
     public MenuOption displayMenuGetOption() {
@@ -114,7 +115,7 @@ public class View {
         return result;
     }
 
-    private EncounterType readType() {
+    public EncounterType readType() {
         int index = 1;
         for (EncounterType type : EncounterType.values()) {
             System.out.printf("%s. %s%n", index++, type);
@@ -123,4 +124,36 @@ public class View {
         String msg = String.format("Select Encounter Type [1-%s]:", index);
         return EncounterType.values()[readInt(msg, 1, index) - 1];
     }
+
+
+    public Encounter update(List<Encounter> encounters) {
+        Encounter encounter = findEncounter(encounters);
+        if (encounter != null) {
+            update(encounter);
+        }
+        return encounter;
+    }
+
+    private Encounter update(Encounter encounter) {
+
+
+        return encounter;
+    }
+
+    public Encounter findEncounter(List<Encounter> encounters) {
+        printAllEncounters(encounters);
+
+        if (encounters.size() == 0) {
+            return null;
+        }
+        int encounterId = readInt("Encounter Id: ");
+        for (Encounter e : encounters) {
+            if (e.getEncounterId() == encounterId) {
+                return (e);
+            }
+        }
+        System.out.println("Encounter Id " + encounterId + " not found.");
+        return null;
+    }
+
 }
