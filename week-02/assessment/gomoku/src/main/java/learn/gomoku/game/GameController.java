@@ -18,7 +18,7 @@ public class GameController {
         play();
         playAgain("Do you want to play again? [y/n] ");
 
-        System.out.println("I don't get called!");
+
     }
 
     private void play() {
@@ -138,11 +138,14 @@ public class GameController {
     public boolean playAgain(String prompt) {
         String exit = readRequiredString(prompt);
 
-        do {
+        if(exit.equalsIgnoreCase("n")){
+            game.isOver();
+        }else {
             run();
-        } while (exit.equalsIgnoreCase("n"));
+        }
+
         System.out.println("Goodbye!");
-        return false;
+        return true;
 
     }
 
