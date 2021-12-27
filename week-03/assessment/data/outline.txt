@@ -1,0 +1,182 @@
+Solar Farm
+Use Cases
+As an administrator, I want to add a solar panel.
+
+select add panel menu option
+enter a section (string)
+enter a row (int 1-250)
+enter a column (int 1-250)
+enter a material (select a material from a list...?)
+enter year installed (int - present year or past)
+tracking (yes/no)
+application will save the panel
+success or failure feedback
+
+
+As an administrator, I want to delete a solar panel.
+select delete panel menu
+enter a section (panel key)
+enter a row (panel key)
+enter a column (panel key)
+send panel key to app
+success or failure feedback
+As an administrator, I want to update a solar panel.
+
+Option 1
+
+select update panel menu
+enter a section (panel key)
+enter a row (panel key)
+enter a column (panel key)
+send panel key to app to fetch a panel
+if the panel doesn't exist, give feedback
+if the panel does exist, update fields:
+enter a section (string) [allow ENTER to keep value]
+enter a row (int 1-250)
+enter a column (int 1-250)
+enter a material (select a material from a list...?)
+enter year installed (int - present year or past)
+tracking (yes/no)
+send updated panel to be saved by app
+success or failure feedback
+
+
+Option 2
+
+select a update panel menu
+enter a section
+the app retrieves all panels in that section
+user selects a panel to update (can display ids)
+update fields:
+enter a section (string) [allow ENTER to keep value]
+enter a row (int 1-250)
+enter a column (int 1-250)
+enter a material (select a material from a list...?)
+enter year installed (int - present year or past)
+tracking (yes/no)
+send updated panel to be saved by app
+success or failure feedback
+
+
+As an admin, I want to view panels by section.
+
+select display by section menu
+enter a section
+send section criteria to app (find panels)
+display panels
+
+
+Classes
+models
+Material (enum)
+POLY_SI
+MONO_SI
+CDTE
+CIGS
+A_SI
+
+
+Panel
+Fields
+
+int id
+String section
+int row
+int column
+Material material
+int yearInstalled
+boolean isTracking
+Getters and Setters for all fields
+
+data
+DataAccessException extends Exception
+PanelFileRepository
+Fields
+
+String filePath
+Public Methods
+
+List findBySection(String)
+Panel findByKey(String section, int row, int column)
+Panel add(Panel)
+boolean update(Panel) (Choose one below:)
+boolean deleteByKey(String section, int row, int column)
+boolean deleteById(int)
+Private Methods
+
+List findAll()
+void writeAll(List)
+String serialize(Panel)
+Panel deserialize(String)
+PanelRepository (interface)
+Public Signatures
+
+List findBySection(String)
+Panel findByKey(String section, int row, int column)
+Panel add(Panel)
+boolean update(Panel) (Choose one below:)
+boolean deleteByKey(String section, int row, int column)
+boolean deleteById(int)
+domain
+PanelResult
+Fields
+
+Panel panel
+List errorMessages
+Public Methods
+
+void addError(String)
+void setPanel(Panel)
+Panel getPanel()
+boolean isSuccess() -- returns true if errorMessages.size() is 0
+List getMessage() -- cloning, not direct reference
+PanelService
+Fields
+
+PanelRepository repository
+Public Methods
+
+PanelResult add(Panel)
+PanelResult update(Panel)
+boolean deleteByKey(PanelKey | String section, int row, int column)
+List findBySection(String)
+Panel findByKey(PanelKey | String section, int row, int column)
+Private Methods
+
+PanelResult validate(Panel)
+ui
+  View
+
+  Fields
+  Scanner scanner
+
+  Public Methods
+
+  int chooseFromMainMenu()
+  PanelKey(section,row,column) || choosePanelKey() // for update and delete... add
+  Panel update(Panel)
+  Panel makePanel()
+  String readSection()
+  void displayPanels(List)
+  String readString(String)
+  String readRequiredString(String)
+  int readInt(String)
+  int readInt(String message, int min, int max)
+  boolean readBoolean(String)
+  Material readMaterial()
+
+
+  Controller
+
+  Fields:
+  View view
+  PanelService service
+
+  Public Methods
+  void run()
+
+  Private Methods
+  addPanel()
+  updatePanel()
+  deletePanel()
+  findPanelsBySection()

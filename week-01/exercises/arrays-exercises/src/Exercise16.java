@@ -11,6 +11,23 @@ public class Exercise16 {
         // Its elements are guaranteed to be sorted ascending.
         // 1. Create a new int[] with capacity for all elements from `one` and `two`.
         // 2. "Merge" elements from `one` and `two` into the new array so that its values are sorted.
+        int[] result = new int[one.length + two.length];
+        int y = 0;
+
+        for (int i = 0; i < one.length; i++) {
+            for (int x = 0; x < two.length; x++) {
+                for (int z = 0; z < result.length - 1; z++) {
+                    if (one[i] < two[x]) {
+                        result[z] = one[i];
+                    }else if (one[i] > two[x]){
+                        result[z] = two[x];
+                    }
+                }
+
+            }
+        }
+
+
 
          /* Pseudocode:
          Create an integer index for `one`, `two`, and the result array, all starting at 0.

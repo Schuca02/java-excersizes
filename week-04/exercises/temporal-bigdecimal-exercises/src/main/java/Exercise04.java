@@ -1,4 +1,5 @@
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 
 public class Exercise04 {
 
@@ -9,17 +10,22 @@ public class Exercise04 {
 
     // 1. add a, b, and c together and return the result
     BigDecimal add(BigDecimal a, BigDecimal b, BigDecimal c) {
-        return null;
+        BigDecimal d = a.add(b.add(c));
+        return d;
     }
 
     // 2. divide a by b and return the result with only two decimal points
     BigDecimal divideWithTwoDecimalPlaces(BigDecimal a, BigDecimal b) {
-        return null;
+        BigDecimal c = a.divide(b, 2, RoundingMode.HALF_UP);
+
+
+        return c;
     }
 
     // 3. calculate the sum of elements in values and return it
     // with a scale of 4.
     BigDecimal sum(BigDecimal[] values) {
+
         return null;
     }
 

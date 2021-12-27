@@ -1,0 +1,4 @@
+Section,row,column,material,year_installed,sun-tracking
+Main,3,4,POLY_SI,2009,false
+Upper Hill,1,1,CIGS,2019,false
+Main,3,5,A_SI,2019,true
