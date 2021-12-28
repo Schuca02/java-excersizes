@@ -5,15 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2701fa5f-f043-428b-a370-d6ba700ad241" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dependency-configuration.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learn/solar/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/solar/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week-04/exercises/temporal-bigdecimal-exercises/src/main/java/Exercise01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/exercises/temporal-bigdecimal-exercises/src/main/java/Exercise01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week-04/exercises/temporal-bigdecimal-exercises/src/main/java/Exercise02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/exercises/temporal-bigdecimal-exercises/src/main/java/Exercise02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week-04/exercises/temporal-bigdecimal-exercises/src/main/java/Exercise04.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/exercises/temporal-bigdecimal-exercises/src/main/java/Exercise04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week-04/exercises/temporal-bigdecimal-exercises/src/main/java/learn/NonOverlappingMicroLeaseSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/exercises/temporal-bigdecimal-exercises/src/main/java/learn/NonOverlappingMicroLeaseSchedule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week-04/exercises/temporal-bigdecimal-exercises/temporal-bigdecimal-exercises.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/assessment/dont-wreck-my-house/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/assessment/dont-wreck-my-house/.idea/csv-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/assessment/dont-wreck-my-house/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/assessment/dont-wreck-my-house/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/assessment/dont-wreck-my-house/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/assessment/dont-wreck-my-house/dependency-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/assessment/dont-wreck-my-house/src/main/java/learn/house/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/assessment/dont-wreck-my-house/src/main/java/learn/house/data/DataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/assessment/dont-wreck-my-house/src/main/java/learn/house/data/GuestFileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/assessment/dont-wreck-my-house/src/main/java/learn/house/data/GuestRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/assessment/dont-wreck-my-house/src/main/java/learn/house/data/HostFileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/assessment/dont-wreck-my-house/src/main/java/learn/house/data/HostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/assessment/dont-wreck-my-house/src/main/java/learn/house/data/ReservationFileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/assessment/dont-wreck-my-house/src/main/java/learn/house/data/ReservationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/assessment/dont-wreck-my-house/src/main/java/learn/house/domain/GuestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/assessment/dont-wreck-my-house/src/main/java/learn/house/domain/HostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/assessment/dont-wreck-my-house/src/main/java/learn/house/domain/ReservationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/assessment/dont-wreck-my-house/src/main/java/learn/house/domain/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/assessment/dont-wreck-my-house/src/main/java/learn/house/domain/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/assessment/dont-wreck-my-house/src/main/java/learn/house/models/Guest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/assessment/dont-wreck-my-house/src/main/java/learn/house/models/Host.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/assessment/dont-wreck-my-house/src/main/java/learn/house/models/Reservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/assessment/dont-wreck-my-house/src/main/java/learn/house/ui/ConsoleIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/assessment/dont-wreck-my-house/src/main/java/learn/house/ui/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/assessment/dont-wreck-my-house/src/main/java/learn/house/ui/GenerateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/assessment/dont-wreck-my-house/src/main/java/learn/house/ui/MainMenuOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/assessment/dont-wreck-my-house/src/main/java/learn/house/ui/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/exercises/spring-annotation-configuration/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../week-04/exercises/spring-xml-configuration/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-04/assessment/dont-wreck-my-house/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/assessment/dont-wreck-my-house/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-04/assessment/sustainable-foraging/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/assessment/sustainable-foraging/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-04/exercises/spring-annotation-configuration/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/exercises/spring-annotation-configuration/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-04/exercises/spring-xml-configuration/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/exercises/spring-xml-configuration/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-04/exercises/streams-exercises/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/exercises/streams-exercises/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-04/exercises/streams-exercises/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-04/exercises/streams-exercises/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-04/exercises/streams-exercises/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-04/exercises/streams-exercises/streams-exercises.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

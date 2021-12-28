@@ -5,23 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7d1ed43-5482-4756-8fe1-c2df78a63121" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learn/foraging/domain/UnitedStates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/foragers.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/foragers.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/items.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/items.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learn/foraging/data/ForagerFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/foraging/data/ForagerFileRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learn/foraging/data/ForagerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/foraging/data/ForagerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learn/foraging/domain/ForagerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/foraging/domain/ForagerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learn/foraging/models/Forager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/foraging/models/Forager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learn/foraging/models/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/foraging/models/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learn/foraging/ui/ConsoleIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/foraging/ui/ConsoleIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learn/foraging/ui/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/foraging/ui/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learn/foraging/ui/MainMenuOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/foraging/ui/MainMenuOption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learn/foraging/ui/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/foraging/ui/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/learn/foraging/data/ForagerRepositoryDouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learn/foraging/data/ForagerRepositoryDouble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../week-03/assessment/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dont-wreck-my-house/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dont-wreck-my-house/.idea/csv-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dont-wreck-my-house/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dont-wreck-my-house/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dont-wreck-my-house/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dont-wreck-my-house/dependency-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dont-wreck-my-house/src/main/java/learn/house/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dont-wreck-my-house/src/main/java/learn/house/data/DataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dont-wreck-my-house/src/main/java/learn/house/data/GuestFileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dont-wreck-my-house/src/main/java/learn/house/data/GuestRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dont-wreck-my-house/src/main/java/learn/house/data/HostFileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dont-wreck-my-house/src/main/java/learn/house/data/HostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dont-wreck-my-house/src/main/java/learn/house/data/ReservationFileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dont-wreck-my-house/src/main/java/learn/house/data/ReservationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dont-wreck-my-house/src/main/java/learn/house/domain/GuestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dont-wreck-my-house/src/main/java/learn/house/domain/HostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dont-wreck-my-house/src/main/java/learn/house/domain/ReservationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dont-wreck-my-house/src/main/java/learn/house/domain/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dont-wreck-my-house/src/main/java/learn/house/domain/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dont-wreck-my-house/src/main/java/learn/house/models/Guest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dont-wreck-my-house/src/main/java/learn/house/models/Host.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dont-wreck-my-house/src/main/java/learn/house/models/Reservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dont-wreck-my-house/src/main/java/learn/house/ui/ConsoleIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dont-wreck-my-house/src/main/java/learn/house/ui/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dont-wreck-my-house/src/main/java/learn/house/ui/GenerateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dont-wreck-my-house/src/main/java/learn/house/ui/MainMenuOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dont-wreck-my-house/src/main/java/learn/house/ui/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dont-wreck-my-house/src/test/java/learn/house/data/GuestFileRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dont-wreck-my-house/src/test/java/learn/house/data/HostFileRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercises/spring-annotation-configuration/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercises/spring-xml-configuration/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week-03/assessment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week-03/assessment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dont-wreck-my-house/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dont-wreck-my-house/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exercises/spring-annotation-configuration/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../exercises/spring-annotation-configuration/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exercises/spring-xml-configuration/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../exercises/spring-xml-configuration/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exercises/streams-exercises/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../exercises/streams-exercises/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exercises/streams-exercises/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exercises/streams-exercises/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../exercises/streams-exercises/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exercises/streams-exercises/streams-exercises.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +139,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
