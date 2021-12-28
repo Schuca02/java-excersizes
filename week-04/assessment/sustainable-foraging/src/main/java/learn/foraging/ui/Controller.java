@@ -48,11 +48,14 @@ public class Controller {
                 case VIEW_ITEMS:
                     viewItems();
                     break;
+                case VIEW_FORAGERS:
+                    viewForagers();
+                    break;
                 case ADD_FORAGE:
                     addForage();
                     break;
                 case ADD_FORAGER:
-                    view.displayStatus(false, "NOT IMPLEMENTED");
+                    addForager();
                     view.enterToContinue();
                     break;
                 case ADD_ITEM:
@@ -88,6 +91,30 @@ public class Controller {
         view.displayHeader("Items");
         view.displayItems(items);
         view.enterToContinue();
+    }
+
+    private void viewForagers() {
+        view.displayHeader(MainMenuOption.VIEW_FORAGERS.getMessage());
+        String lastNamePrefix = view.getForagerNamePrefix();
+        List<Forager> foragers = foragerService.findByLastName(lastNamePrefix);
+        if (foragers == null) {
+            return;
+        }
+        view.displayHeader("Foragers");
+        view.displayForagers(foragers);
+        view.enterToContinue();
+    }
+
+    private void addForager() throws DataException{
+        view.displayHeader(MainMenuOption.ADD_FORAGER.getMessage());
+        Forager forager = view.makeForager();
+        Result<Forager> result = foragerService.add(forager);
+        if(!result.isSuccess()){
+            view.displayStatus(false, result.getErrorMessages());
+        }else {
+            String successMessage = String.format("Forager %s created.", result.getPayload().getId());
+            view.displayStatus(true, successMessage);
+        }
     }
 
     private void addForage() throws DataException {

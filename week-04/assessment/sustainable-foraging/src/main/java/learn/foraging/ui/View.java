@@ -1,5 +1,6 @@
 package learn.foraging.ui;
 
+import learn.foraging.domain.UnitedStates;
 import learn.foraging.models.Category;
 import learn.foraging.models.Forage;
 import learn.foraging.models.Forager;
@@ -7,6 +8,7 @@ import learn.foraging.models.Item;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -100,6 +102,25 @@ public class View {
         return item;
     }
 
+    public Forager makeForager() {
+        Forager forager = new Forager();
+        forager.setFirstName(io.readRequiredString("First Name: "));
+        forager.setLastName(io.readRequiredString("Last Name: "));
+        forager.setState(readRequiredState());
+        return forager;
+    }
+
+    private String readRequiredState() {
+        while (true) {
+            String result = io.readString("Two Letter State Identifier: ");
+            if (!result.isBlank()
+                    && (Arrays.stream(UnitedStates.values()).anyMatch(unitedStates -> unitedStates.name().equals((result))))) {
+                return result;
+            }
+            System.out.println("Valid State Is Required");
+        }
+    }
+
     public Forage makeForage(Forager forager, Item item) {
         Forage forage = new Forage();
         forage.setForager(forager);
@@ -111,7 +132,7 @@ public class View {
     }
 
     public Item makeItem() {
-        displayHeader(MainMenuOption.ADD_ITEM.getMessage());
+//        displayHeader(MainMenuOption.ADD_ITEM.getMessage());
         Item item = new Item();
         item.setCategory(getItemCategory());
         item.setName(io.readRequiredString("Item Name: "));
@@ -180,6 +201,20 @@ public class View {
                     forage.getItem().getCategory(),
                     forage.getValue()
             );
+        }
+    }
+
+    public void displayForagers(List<Forager> foragers) {
+        if (foragers == null || foragers.isEmpty()) {
+            io.println("No foragers found");
+            return;
+        }
+        for (Forager forager : foragers) {
+            io.printf("%s: %s %s - %s%n",
+                    forager.getId(),
+                    forager.getFirstName(),
+                    forager.getLastName(),
+                    forager.getState());
         }
     }
 

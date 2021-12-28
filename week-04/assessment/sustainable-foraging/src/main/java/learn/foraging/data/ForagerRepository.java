@@ -9,5 +9,7 @@ public interface ForagerRepository {
 
     List<Forager> findAll();
 
+    Forager add(Forager forager) throws DataException;
+
     List<Forager> findByState(String stateAbbr);
 }
