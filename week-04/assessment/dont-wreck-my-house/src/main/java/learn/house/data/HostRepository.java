@@ -12,4 +12,8 @@ public interface HostRepository {
 
     List<Host> findByState(String stateAbbr);
 
+    List<Host> findByCity(String city);
+
+    Host findById(String id);
+
 }

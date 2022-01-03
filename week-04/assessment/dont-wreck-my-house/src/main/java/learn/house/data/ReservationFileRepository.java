@@ -10,6 +10,7 @@ import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class ReservationFileRepository implements ReservationRepository{
 
@@ -42,8 +43,8 @@ public class ReservationFileRepository implements ReservationRepository{
     }
 
     @Override
-    public Reservation add(Reservation reservation) throws DataException{
-        List<Reservation> all = findAllByHost(reservation.getHost());
+    public Reservation add(Reservation reservation, Host host) throws DataException{
+        List<Reservation> all = findAllByHost(host);
 
         int nextId = all.stream()
                 .mapToInt(Reservation::getId)
@@ -51,7 +52,8 @@ public class ReservationFileRepository implements ReservationRepository{
                 .orElse(0) + 1;
 
         reservation.setId(nextId);
-        writeAll(all, reservation.getHost());
+        all.add(reservation);
+        writeAll(all, host);
 
         return reservation;
     }
@@ -59,22 +61,32 @@ public class ReservationFileRepository implements ReservationRepository{
 
 
     @Override
-    public boolean update(Reservation reservation) throws DataException {
-        List<Reservation> all = findAllByHost(reservation.getHost());
+    public boolean update(Reservation reservation, Host host) throws DataException {
+        List<Reservation> all = findAllByHost(host);
         for(int i = 0; i < all.size(); i++){
             if (all.get(i).getId() == reservation.getId()){
                 all.set(i, reservation);
-                writeAll(all, reservation.getHost());
+                writeAll(all, host);
                 return true;
-
             }
         }
         return false;
     }
 
     @Override
-    public boolean deleteById(int id) {
-        //filter out anything in past
+    public boolean deleteById(Reservation reservation, Host host) throws DataException {
+        List<Reservation> all = findAllByHost(host);
+//        all.stream().filter(i -> i.getStartDate()
+//                .isAfter(LocalDate.now)
+//                .collect(Collectors.toList());
+//        filter the past out
+        for(int i =0; i < all.size(); i++){
+            if (all.get(i).getId() == reservation.getId()){
+                all.remove(i);
+                writeAll(all, host);
+                return true;
+            }
+        }
         return false;
     }
 
@@ -91,7 +103,7 @@ public class ReservationFileRepository implements ReservationRepository{
         }
     }
 
-    private String getFilePath(Host host){return Paths.get(directory, host + ".csv").toString();}
+    private String getFilePath(Host host){return Paths.get(directory, host.getId() + ".csv").toString();}
 
     private Reservation deserialize(String[] fields){
         Reservation result = new Reservation();

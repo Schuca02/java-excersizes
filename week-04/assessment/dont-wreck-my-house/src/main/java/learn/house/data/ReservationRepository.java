@@ -8,10 +8,10 @@ import java.util.List;
 public interface ReservationRepository {
     List<Reservation> findAllByHost(Host host);
 
-    Reservation add(Reservation reservation) throws DataException;
+    Reservation add(Reservation reservation, Host host) throws DataException;
 
-    boolean update(Reservation reservation) throws DataException;
+    boolean update(Reservation reservation, Host host) throws DataException;
 
-    boolean deleteById(int id);
+    boolean deleteById(Reservation reservation, Host host) throws DataException;
 
 }

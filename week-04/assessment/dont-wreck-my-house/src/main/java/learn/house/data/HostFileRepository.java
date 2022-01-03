@@ -55,6 +55,20 @@ public class HostFileRepository implements HostRepository {
                 .collect(Collectors.toList());
     }
 
+    @Override
+    public List<Host> findByCity(String city){
+        return findAll().stream()
+                .filter(i -> i.getCity().equalsIgnoreCase(city))
+                .collect(Collectors.toList());
+    }
+
+    @Override
+    public Host findById(String id) {
+        return findAll().stream()
+                .filter(i -> i.getId().equalsIgnoreCase(id))
+                .findFirst().orElse(null);
+    }
+
     private Host deserialize(String[] fields) {
         Host result = new Host();
         result.setId(fields[0]);
