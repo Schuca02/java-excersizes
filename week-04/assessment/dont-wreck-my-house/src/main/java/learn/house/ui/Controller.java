@@ -54,17 +54,17 @@ public class Controller {
 
     private void editReservation() throws DataException {
         view.displayHeader(MainMenuOption.EDIT_RESERVATION_DATES.getMessage());
-        String email = view.getHostByEmail();
-        Host host = hostService.findByEmail(email);
-        if (host == null) {
-            System.out.println("\nThat email doesn't match any host.\n");
-            return;
-        }
-
         String gmail = view.getGuestByEmail();
         Guest guest = guestService.findByEmail(gmail);
         if (guest == null) {
             System.out.println("\nThat email doesn't match any guests.\n");
+            return;
+        }
+
+        String email = view.getHostByEmail();
+        Host host = hostService.findByEmail(email);
+        if (host == null) {
+            System.out.println("\nThat email doesn't match any host.\n");
             return;
         }
 
@@ -83,7 +83,7 @@ public class Controller {
         view.displayReservations(reservations);
 
         Reservation reservation = view.chooseReservation(reservations);
-        if (reservation == null){
+        if (reservation == null) {
             return;
         }
 
@@ -110,16 +110,17 @@ public class Controller {
 
     private void makeReservation() throws DataException {
         view.displayHeader(MainMenuOption.MAKE_RESERVATION.getMessage());
-        String email = view.getHostByEmail();
-        Host host = hostService.findByEmail(email);
-        if (host == null) {
-            System.out.println("\nThat email doesn't match any host.\n");
-            return;
-        }
+
         String gmail = view.getGuestByEmail();
         Guest guest = guestService.findByEmail(gmail);
         if (guest == null) {
             System.out.println("\nThat email doesn't match any guests.\n");
+            return;
+        }
+        String email = view.getHostByEmail();
+        Host host = hostService.findByEmail(email);
+        if (host == null) {
+            System.out.println("\nThat email doesn't match any host.\n");
             return;
         }
         List<Reservation> reservations = reservationService.findAllByHost(host)
@@ -156,7 +157,10 @@ public class Controller {
             System.out.println("\nThat email or host doesn't exist.\n");
             return;
         }
-        List<Reservation> reservations = reservationService.findAllByHost(host);
+        List<Reservation> reservations = reservationService.findAllByHost(host)
+                .stream().sorted(Comparator.comparing(Reservation::getStartDate))
+                .collect(Collectors.toList());
+
         if (reservations == null || reservations.size() == 0) {
             System.out.printf("No reservations for %s: %s, %s%n", host.getLastName(), host.getCity(), host.getState());
 
@@ -170,16 +174,16 @@ public class Controller {
 
     private void cancelReservation() throws DataException {
         view.displayHeader(MainMenuOption.CANCEL_RESERVATION.getMessage());
-        String email = view.getHostByEmail();
-        Host host = hostService.findByEmail(email);
-        if (host == null) {
-            System.out.println("\nThat email doesn't match any host.\n");
-            return;
-        }
         String gmail = view.getGuestByEmail();
         Guest guest = guestService.findByEmail(gmail);
         if (guest == null) {
             System.out.println("\nThat email doesn't match any guests.\n");
+            return;
+        }
+        String email = view.getHostByEmail();
+        Host host = hostService.findByEmail(email);
+        if (host == null) {
+            System.out.println("\nThat email doesn't match any host.\n");
             return;
         }
         List<Reservation> reservations = reservationService.findAllByHost(host)

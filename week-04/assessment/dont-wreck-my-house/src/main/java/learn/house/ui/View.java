@@ -86,7 +86,7 @@ public class View {
     }
 
     public void displaySingleReservation(Reservation reservation) {
-        io.printf("Start: %s%nEnd: %s%nTotal: %s%n",
+        io.printf("Start: %s%nEnd: %s%nTotal: $%s%n",
                 reservation.getStartDate().format(DateTimeFormatter.ofPattern("MM/dd/yyyy")),
                 reservation.getEndDate().format(DateTimeFormatter.ofPattern("MM/dd/yyyy")),
                 reservation.getTotal());
@@ -97,7 +97,7 @@ public class View {
             if (reservations.size() == 0) {
                 System.out.println("No current reservations for " + reservation.getHost());
             } else {
-                io.printf("%s: %s - %s, %s, %s%n",
+                io.printf("%s: %s - %s, %s, $%s%n",
                         reservation.getId(),
                         reservation.getStartDate().format(DateTimeFormatter.ofPattern("MM/dd/yyyy")),
                         reservation.getEndDate().format(DateTimeFormatter.ofPattern("MM/dd/yyyy")),
