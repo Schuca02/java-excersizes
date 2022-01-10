@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="91c2f1c2-40db-4937-9d4d-5194f3e555c5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../assessment/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/src/main/java/learn/solar/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/src/main/java/learn/solar/data/DataAccessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/src/main/java/learn/solar/data/PanelFileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/src/main/java/learn/solar/data/PanelRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/src/main/java/learn/solar/domain/PanelResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/src/main/java/learn/solar/domain/PanelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/src/main/java/learn/solar/models/Material.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/src/main/java/learn/solar/models/Panel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/src/main/java/learn/solar/ui/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/src/main/java/learn/solar/ui/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../unexplained-encounters/data/encounters.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unexplained-encounters/src/main/java/learn/unexplained/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../unexplained-encounters/src/main/java/learn/unexplained/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unexplained-encounters/src/main/java/learn/unexplained/ui/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../unexplained-encounters/src/main/java/learn/unexplained/ui/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unexplained-encounters/src/main/java/learn/unexplained/ui/MenuOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/../unexplained-encounters/src/main/java/learn/unexplained/ui/MenuOption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unexplained-encounters/src/main/java/learn/unexplained/ui/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/../unexplained-encounters/src/main/java/learn/unexplained/ui/View.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="22FDAYthHuVwu4mCpxCLLbTe1AO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="RunManager" selected="JUnit.TwoCardHandTest.QueenKingShouldBeatJackKing">
+    <configuration name="TwoCardHandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="enum-exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.poker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learn.poker" />
+      <option name="MAIN_CLASS_NAME" value="learn.poker.TwoCardHandTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoCardHandTest.QueenKingShouldBeatJackKing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="enum-exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.poker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learn.poker" />
+      <option name="MAIN_CLASS_NAME" value="learn.poker.TwoCardHandTest" />
+      <option name="METHOD_NAME" value="QueenKingShouldBeatJackKing" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoCardHandTest.jack4ShouldTieJack4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="enum-exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.poker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learn.poker" />
+      <option name="MAIN_CLASS_NAME" value="learn.poker.TwoCardHandTest" />
+      <option name="METHOD_NAME" value="jack4ShouldTieJack4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoCardHandTest.queen5ShouldBeatQueen3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="enum-exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.poker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learn.poker" />
+      <option name="MAIN_CLASS_NAME" value="learn.poker.TwoCardHandTest" />
+      <option name="METHOD_NAME" value="queen5ShouldBeatQueen3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoCardHandTest.two5sShouldTieTwo5s" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="enum-exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.poker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learn.poker" />
+      <option name="MAIN_CLASS_NAME" value="learn.poker.TwoCardHandTest" />
+      <option name="METHOD_NAME" value="two5sShouldTieTwo5s" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TwoCardHandTest.QueenKingShouldBeatJackKing" />
+        <item itemvalue="JUnit.TwoCardHandTest" />
+        <item itemvalue="JUnit.TwoCardHandTest.queen5ShouldBeatQueen3" />
+        <item itemvalue="JUnit.TwoCardHandTest.two5sShouldTieTwo5s" />
+        <item itemvalue="JUnit.TwoCardHandTest.jack4ShouldTieJack4" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91c2f1c2-40db-4937-9d4d-5194f3e555c5" name="Changes" comment="" />
+      <created>1639424301483</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639424301483</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

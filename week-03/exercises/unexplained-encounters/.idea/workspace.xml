@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="68cfef37-6b53-4ffc-a539-57edcd101f7c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../assessment/data/solar-panel.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../assessment/data/solar-panel.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assessment/src/main/java/learn/solar/data/PanelFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../assessment/src/main/java/learn/solar/data/PanelFileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assessment/src/main/java/learn/solar/domain/PanelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../assessment/src/main/java/learn/solar/domain/PanelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assessment/src/main/java/learn/solar/ui/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../assessment/src/main/java/learn/solar/ui/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assessment/src/main/java/learn/solar/ui/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../assessment/src/main/java/learn/solar/ui/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assessment/src/test/java/learn/solar/data/PanelRepositoryDouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../assessment/src/test/java/learn/solar/data/PanelRepositoryDouble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assessment/src/test/java/learn/solar/domain/PanelServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../assessment/src/test/java/learn/solar/domain/PanelServiceTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="22L35RUtz8KjfWpEO303jyR3m0U" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learn.unexplained.App" />
+      <module name="unexplained-encounters" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.unexplained.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EncounterServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unexplained-encounters" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.unexplained.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learn.unexplained.domain" />
+      <option name="MAIN_CLASS_NAME" value="learn.unexplained.domain.EncounterServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EncounterServiceTest.shouldDeleteById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unexplained-encounters" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.unexplained.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learn.unexplained.domain" />
+      <option name="MAIN_CLASS_NAME" value="learn.unexplained.domain.EncounterServiceTest" />
+      <option name="METHOD_NAME" value="shouldDeleteById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EncounterServiceTest.shouldFindByType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unexplained-encounters" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.unexplained.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learn.unexplained.domain" />
+      <option name="MAIN_CLASS_NAME" value="learn.unexplained.domain.EncounterServiceTest" />
+      <option name="METHOD_NAME" value="shouldFindByType" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EncounterServiceTest.shouldNotUpdateNotValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unexplained-encounters" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.unexplained.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learn.unexplained.domain" />
+      <option name="MAIN_CLASS_NAME" value="learn.unexplained.domain.EncounterServiceTest" />
+      <option name="METHOD_NAME" value="shouldNotUpdateNotValid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.EncounterServiceTest" />
+        <item itemvalue="JUnit.EncounterServiceTest.shouldFindByType" />
+        <item itemvalue="JUnit.EncounterServiceTest.shouldDeleteById" />
+        <item itemvalue="JUnit.EncounterServiceTest.shouldNotUpdateNotValid" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="68cfef37-6b53-4ffc-a539-57edcd101f7c" name="Changes" comment="" />
+      <created>1639602858970</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639602858970</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

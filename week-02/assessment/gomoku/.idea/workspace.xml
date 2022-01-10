@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="08a3252a-192e-4c36-ba4d-7b7aab2ce1ec" name="Changes" comment="fixed code review" />
+    <list id="26e8fc3f-aa0f-4c53-8590-92b7d6dd415e" name="Changes by magemasher" comment="Changes by magemasher" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="226kx3jakveJ5ueGx9Bg2AXw2JP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../week-04/exercises/temporal-bigdecimal-exercises" />
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learn.gomoku.App" />
+      <module name="gomoku" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.gomoku.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learn.gomoku.game.GameController" />
+      <module name="gomoku" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.gomoku.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GomokuRandomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gomoku" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.gomoku.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learn.gomoku.game" />
+      <option name="MAIN_CLASS_NAME" value="learn.gomoku.game.GomokuRandomTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GomokuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gomoku" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.gomoku.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learn.gomoku.game" />
+      <option name="MAIN_CLASS_NAME" value="learn.gomoku.game.GomokuTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GomokuTest.shouldEndInDraw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gomoku" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.gomoku.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learn.gomoku.game" />
+      <option name="MAIN_CLASS_NAME" value="learn.gomoku.game.GomokuTest" />
+      <option name="METHOD_NAME" value="shouldEndInDraw" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.GomokuTest.shouldEndInDraw" />
+        <item itemvalue="JUnit.GomokuRandomTest" />
+        <item itemvalue="Application.GameController" />
+        <item itemvalue="JUnit.GomokuTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08a3252a-192e-4c36-ba4d-7b7aab2ce1ec" name="Changes" comment="" />
+      <created>1639165670717</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639165670717</updated>
+    </task>
+    <task id="LOCAL-00001" summary="early version">
+      <created>1639341339627</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1639341339627</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Version 1.2">
+      <created>1639345998178</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1639345998178</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Final Version before codereview">
+      <created>1639408094858</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1639408094859</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fixed code review">
+      <created>1640031976514</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640031976514</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fixed code review">
+      <created>1640033377477</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1640033377477</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="early version" />
+    <MESSAGE value="Version 1.2" />
+    <MESSAGE value="Final Version before codereview" />
+    <MESSAGE value="fixed code review" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed code review" />
+  </component>
+</project>

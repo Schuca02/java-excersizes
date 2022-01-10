@@ -9,6 +9,7 @@ public class Item {
     private String name;
     private Category category;
     private BigDecimal dollarPerKilogram;
+    private double kilogram;
 
     public Item() {
     }
@@ -18,6 +19,7 @@ public class Item {
         this.name = name;
         this.category = category;
         this.dollarPerKilogram = dollarPerKilogram;
+
     }
 
     public int getId() {
@@ -48,9 +50,8 @@ public class Item {
         return dollarPerKilogram;
     }
 
-    public void setDollarPerKilogram(BigDecimal dollarPerKilogram) {
-        this.dollarPerKilogram = dollarPerKilogram;
-    }
+    public void setDollarPerKilogram(BigDecimal dollarPerKilogram) {this.dollarPerKilogram = dollarPerKilogram;}
+
 
     @Override
     public boolean equals(Object o) {

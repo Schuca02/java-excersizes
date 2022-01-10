@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5fee0714-8f5e-4866-871a-e5f6e0e0cc1f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/.idea/csv-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/data/DataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/data/GuestFileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/data/GuestRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/data/HostFileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/data/HostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/data/ReservationFileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/data/ReservationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/domain/GuestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/domain/HostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/domain/ReservationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/domain/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/domain/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/models/Guest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/models/Host.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/models/Reservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/ui/ConsoleIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/ui/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/ui/GenerateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/ui/MainMenuOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/ui/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-annotation-configuration/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assessment/sustainable-foraging/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../assessment/sustainable-foraging/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-annotation-configuration/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-annotation-configuration/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../streams-exercises/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../streams-exercises/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../streams-exercises/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../streams-exercises/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../streams-exercises/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../streams-exercises/streams-exercises.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="22eaE5fK1fSqg6NGarg8XFdacZ8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-annotation-configuration" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5fee0714-8f5e-4866-871a-e5f6e0e0cc1f" name="Changes" comment="" />
+      <created>1640200392631</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640200392631</updated>
+    </task>
+    <servers />
+  </component>
+</project>

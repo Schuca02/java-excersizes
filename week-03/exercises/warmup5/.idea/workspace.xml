@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3b6b65e2-ba49-440e-80a8-2e66e4e23d6b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/exercises.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../enum-exercises/src/main/java/learn/cards/Rank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../enum-exercises/src/main/java/learn/cards/Suits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week-02/assessment/gomoku/src/main/java/learn/gomoku/game/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week-02/assessment/gomoku/src/main/java/learn/gomoku/game/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../week-02/assessment/gomoku/src/test/java/learn/gomoku/game/GomokuRandomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week-02/assessment/gomoku/src/test/java/learn/gomoku/game/GomokuRandomTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enum-exercises/enum-exercises.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enum-exercises/src/main/java/learn/cards/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/../enum-exercises/src/main/java/learn/cards/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enum-exercises/src/main/java/learn/poker/TwoCardHand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../enum-exercises/src/main/java/learn/poker/TwoCardHand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enum-exercises/src/test/java/learn/cards/CardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../enum-exercises/src/test/java/learn/cards/CardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enum-exercises/src/test/java/learn/poker/TwoCardHandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../enum-exercises/src/test/java/learn/poker/TwoCardHandTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="22HYBRsSEnPjCy2wAq8B0bLc0z6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="warmup5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="warmup5" />
+      <module name="warmup5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.warmup5" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b6b65e2-ba49-440e-80a8-2e66e4e23d6b" name="Changes" comment="" />
+      <created>1639495845932</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639495845932</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="92b7f2d4-6a7e-4f74-9295-091825120549" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/data/DataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/data/GuestFileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/data/GuestRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/data/HostFileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/data/HostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/data/ReservationFileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/data/ReservationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/domain/GuestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/domain/HostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/domain/ReservationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/domain/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/domain/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/models/Guest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/models/Host.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/models/Reservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/ui/ConsoleIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/ui/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/ui/GenerateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/ui/MainMenuOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/src/main/java/learn/house/ui/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../assessment/dont-wreck-my-house/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="22hTCl6KmoFx6jrNGLLWeCs993X" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../week-05/.keep" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learn.Main" />
+      <module name="streams-exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92b7f2d4-6a7e-4f74-9295-091825120549" name="Changes" comment="" />
+      <created>1640288697096</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640288697096</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

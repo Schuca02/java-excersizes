@@ -30,6 +30,11 @@ public class ForagerRepositoryDouble implements ForagerRepository {
     }
 
     @Override
+    public Forager add(Forager forager) throws DataException {
+        return null;
+    }
+
+    @Override
     public List<Forager> findByState(String stateAbbr) {
         return foragers.stream()
                 .filter(i -> i.getState().equalsIgnoreCase(stateAbbr))
