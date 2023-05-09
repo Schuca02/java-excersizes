@@ -1,10 +1,11 @@
 package learn.unexplained;
 
-import learn.unexplained.data.EncounterFileRepository;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+@SpringBootApplication
 public class App {
-
     public static void main(String[] args) {
-        EncounterFileRepository repository = new EncounterFileRepository("./data/encounters.csv");
+        SpringApplication.run(App.class, args);
     }
 }

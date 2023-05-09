@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fd7c7d5c-e450-4ba8-a6da-95b6bda23133" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/pets/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/pets/controllers/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/pets/controllers/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/pets/controllers/PetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/pets/data/PetJdbcRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/pets/data/PetJdbcTemplateRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/pets/data/PetMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/pets/data/PetRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/pets/domain/PetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/pets/domain/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/pets/domain/ResultType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learn/pets/models/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/learn/pets/controllers/PetControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/learn/pets/data/DbTestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/learn/pets/data/PetJdbcRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/learn/pets/data/PetJdbcTemplateRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/learn/pets/domain/PetServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../controller concepts/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../controller concepts/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../controller concepts/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../controller concepts/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../controller concepts/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../controller concepts/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../controller concepts/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../controller concepts/src/main/java/learn/concepts/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../controller concepts/src/main/java/learn/concepts/ConceptsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../controller concepts/src/main/java/learn/concepts/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../controller concepts/src/main/java/learn/concepts/PetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hodgepodge/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hodgepodge/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hodgepodge/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hodgepodge/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hodgepodge/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hodgepodge/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hodgepodge/src/main/java/learn/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hodgepodge/src/main/java/learn/UI/HodgepodgeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hodgepodge/src/main/java/learn/UI/SheepValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-03/exercises/unexplained-encounters/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-03/exercises/unexplained-encounters/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-03/exercises/unexplained-encounters/unexplained-encounters.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-03/exercises/unexplained-encounters/unexplained-encounters.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="23Vye7U3GPoSnsWSGGSN9AYT2NY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/learn/pets" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cbsch\Documents\java-excersizes\Lessons\M7\src\test" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="learn.pets.data" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="learn.pets" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="learn.pets.data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PetControllerTest">
+    <configuration name="PetControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.pets.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learn.pets.controllers" />
+      <option name="MAIN_CLASS_NAME" value="learn.pets.controllers.PetControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetControllerTest.shouldGetAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.pets.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learn.pets.controllers" />
+      <option name="MAIN_CLASS_NAME" value="learn.pets.controllers.PetControllerTest" />
+      <option name="METHOD_NAME" value="shouldGetAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetJdbcTemplateRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.pets.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learn.pets.data" />
+      <option name="MAIN_CLASS_NAME" value="learn.pets.data.PetJdbcTemplateRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.pets.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learn.pets.domain" />
+      <option name="MAIN_CLASS_NAME" value="learn.pets.domain.PetServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetServiceTest.shouldAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.pets.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learn.pets.domain" />
+      <option name="MAIN_CLASS_NAME" value="learn.pets.domain.PetServiceTest" />
+      <option name="METHOD_NAME" value="shouldAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PetControllerTest" />
+        <item itemvalue="JUnit.PetControllerTest.shouldGetAll" />
+        <item itemvalue="JUnit.PetServiceTest" />
+        <item itemvalue="JUnit.PetServiceTest.shouldAdd" />
+        <item itemvalue="JUnit.PetJdbcTemplateRepositoryTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd7c7d5c-e450-4ba8-a6da-95b6bda23133" name="Changes" comment="" />
+      <created>1641833648011</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641833648011</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

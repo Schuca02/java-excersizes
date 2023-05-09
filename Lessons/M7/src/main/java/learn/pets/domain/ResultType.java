@@ -1,2 +1,8 @@
-package learn.pets.domain;public enum ResultType {
+package learn.pets.domain;
+
+public enum ResultType {
+
+    SUCCESS,
+    INVALID,
+    NOT_FOUND
 }
