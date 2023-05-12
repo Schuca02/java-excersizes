@@ -5,13 +5,68 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68cfef37-6b53-4ffc-a539-57edcd101f7c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../assessment/data/solar-panel.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../assessment/data/solar-panel.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../assessment/src/main/java/learn/solar/data/PanelFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../assessment/src/main/java/learn/solar/data/PanelFileRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../assessment/src/main/java/learn/solar/domain/PanelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../assessment/src/main/java/learn/solar/domain/PanelService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../assessment/src/main/java/learn/solar/ui/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../assessment/src/main/java/learn/solar/ui/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../assessment/src/main/java/learn/solar/ui/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../assessment/src/main/java/learn/solar/ui/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../assessment/src/test/java/learn/solar/data/PanelRepositoryDouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../assessment/src/test/java/learn/solar/data/PanelRepositoryDouble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../assessment/src/test/java/learn/solar/domain/PanelServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../assessment/src/test/java/learn/solar/domain/PanelServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/M7/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/M7/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/M7/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/M7/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/M7/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/M7/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/M7/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/M7/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/M7/src/main/java/learn/pets/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/M7/src/main/java/learn/pets/controllers/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/M7/src/main/java/learn/pets/controllers/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/M7/src/main/java/learn/pets/controllers/PetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/M7/src/main/java/learn/pets/data/PetJdbcRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/M7/src/main/java/learn/pets/data/PetJdbcTemplateRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/M7/src/main/java/learn/pets/data/PetMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/M7/src/main/java/learn/pets/data/PetRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/M7/src/main/java/learn/pets/domain/PetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/M7/src/main/java/learn/pets/domain/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/M7/src/main/java/learn/pets/domain/ResultType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/M7/src/main/java/learn/pets/models/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/M7/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/M7/src/test/java/learn/pets/controllers/PetControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/M7/src/test/java/learn/pets/data/DbTestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/M7/src/test/java/learn/pets/data/PetJdbcRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/M7/src/test/java/learn/pets/data/PetJdbcTemplateRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/M7/src/test/java/learn/pets/domain/PetServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/M7/src/test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/controller concepts/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/controller concepts/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/controller concepts/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/controller concepts/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/controller concepts/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/controller concepts/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/controller concepts/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/controller concepts/src/main/java/learn/concepts/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/controller concepts/src/main/java/learn/concepts/ConceptsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/controller concepts/src/main/java/learn/concepts/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/controller concepts/src/main/java/learn/concepts/PetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/hodgepodge/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/hodgepodge/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/hodgepodge/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/hodgepodge/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/hodgepodge/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/hodgepodge/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/hodgepodge/src/main/java/learn/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/hodgepodge/src/main/java/learn/UI/HodgepodgeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lessons/hodgepodge/src/main/java/learn/UI/SheepValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../warmups/src/main/java/warmups/recursion/sumguy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../warmups/src/main/java/warmups/recursion/sumguy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learn/unexplained/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/unexplained/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learn/unexplained/data/EncounterFileRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learn/unexplained/data/EncounterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/unexplained/data/EncounterRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learn/unexplained/domain/EncounterResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learn/unexplained/domain/EncounterService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learn/unexplained/models/Encounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learn/unexplained/models/Encounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learn/unexplained/ui/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learn/unexplained/ui/View.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/learn/unexplained/data/EncounterFileRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learn/unexplained/data/EncounterFileRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/learn/unexplained/data/EncounterRepositoryDouble.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/learn/unexplained/domain/EncounterServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unexplained-encounters.iml" beforeDir="false" afterPath="$PROJECT_DIR$/unexplained-encounters.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +84,22 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectId" id="22L35RUtz8KjfWpEO303jyR3m0U" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,9 +110,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../clojure-noob" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.EncounterFileRepositoryTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learn.unexplained.App" />
       <module name="unexplained-encounters" />
@@ -51,6 +123,57 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="bbPath" value="" />
+      <setting name="parameters" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <setting name="workingDir" value="" />
+      <setting name="focusEditor" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <setting name="focusEditor" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="replPortFileType" value="STANDARD" />
+      <setting name="customPortFile" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <setting name="focusEditor" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="EncounterFileRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unexplained-encounters" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.unexplained.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learn.unexplained.data" />
+      <option name="MAIN_CLASS_NAME" value="learn.unexplained.data.EncounterFileRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,22 +225,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EncounterServiceTest.shouldNotUpdateNotValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unexplained-encounters" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learn.unexplained.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="learn.unexplained.domain" />
-      <option name="MAIN_CLASS_NAME" value="learn.unexplained.domain.EncounterServiceTest" />
-      <option name="METHOD_NAME" value="shouldNotUpdateNotValid" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +238,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EncounterFileRepositoryTest" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.EncounterServiceTest" />
         <item itemvalue="JUnit.EncounterServiceTest.shouldFindByType" />
         <item itemvalue="JUnit.EncounterServiceTest.shouldDeleteById" />
-        <item itemvalue="JUnit.EncounterServiceTest.shouldNotUpdateNotValid" />
       </list>
     </recent_temporary>
   </component>

@@ -1,0 +1,40 @@
+POST /pets HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+
+{
+    "name": "Gibby",
+    "type": "Cat"
+}
+
+###
+
+PUT /pets/9 HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+
+{
+    "petId": 9,
+    "name": "Midge",
+    "type": "Pug"
+}
+
+###
+PUT /pets/9 HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+
+{
+    "nope": "nah"
+}
+
+###
+PUT /put HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+
+{
+    "petId": 15,
+    "name": "Midge",
+    "type": "Pug"
+}

@@ -3,13 +3,6 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="\data\forage_data_test\2020-06-26.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="\data\guests.csv">
           <value>
             <Attribute>
@@ -25,13 +18,6 @@
           </value>
         </entry>
         <entry key="\data\house_data_test\cf6cd63a-028a-4620-9786-60e1d0ce23b7.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\data\house_data_test\seed-cf6cd63a-028a-4620-9786-60e1d0ce23b7.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
